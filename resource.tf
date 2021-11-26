@@ -23,7 +23,7 @@ variable "nw-name" {
 resource "aws_instance" "server1" {
   ami           = var.image
   instance_type = var.hw
-  key_name = "test"
+  key_name = "Shashank"
   tags = {
     Name = var.name
     Env  = "Prod"
