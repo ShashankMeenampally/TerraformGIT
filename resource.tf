@@ -4,7 +4,7 @@ provider "aws" {
 
 variable "image" {
  type = string
- default = "ami-0d718c3d715cec4a7"
+ default = "ami-04902260ca3d33422"
 }
 
 variable "hw" {
